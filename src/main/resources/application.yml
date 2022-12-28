@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/playground?enabledTLSProtocols=TLSv1.2
+    password: root
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    generate-ddl: true
